@@ -1,0 +1,22 @@
+menu{
+    background: rgb(23,55,160);
+}
+
+menu ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+li:hover{
+    border-radius: 3px;
+    background: rgb(60, 86, 233);
+}
+
+menu ul li a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+}
